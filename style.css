@@ -52,18 +52,30 @@ header {
     padding: 0;
     max-width: 1440px;
     height: 80px;
-    align-items: center;
-  }
-  .nav {
-    display: flex;
-    gap: 10px;
-    font-weight: bold;
-  }
-  .nav a {
-    color: black;
   }
   .logo1 {
-    height: 20px;
+    height: 28px;
+    width: 202px;
+    margin-left: 81px;
+    margin-top: 30px;
+  }
+  .nav {
+    height: 44px;
+    width: 669px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-right: 129px;
+    align-items: center;
+  }
+  .nav a {
+    margin: 0;
+    color: black;
+  }
+  a:nth-child(6) {
+    border: 2px solid rgb(51, 126, 196);
+    padding: 11px 30px;
   }
   .blue {
     display: flex;
