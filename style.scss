@@ -70,10 +70,26 @@ header {
   }
 
   a:nth-child(6) {
+    font-size: 20px;      
     border: 2px solid  rgb(51, 126, 196);
-    padding: 11px 30px;
-    
+    padding: 8.5px 0;
+    width:132px ; 
+
   }
+
+.login1 a:nth-child(1) {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+}
+.login1 a:nth-child(2){
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+
+}
+  
 
   .blue {
     display: flex;
